@@ -1,0 +1,35 @@
+#Arithmetic Operators
+def fun(n1,n2):
+    a=n1+n2
+    print(a)   
+    b=n1-n2
+    print(b)
+    c=n1*n2
+    print(c)
+    d=n1/n2
+    print(d)
+    e=n1//n2
+    print(e)
+    f=n1%n2
+    print(f)
+n1=int(input())
+n2=int(input())
+fun(n1,n2)
+
+
+#Sqaure Root
+def fun(n1):
+    a=n1*n1
+    print(a)
+n1=int(input())
+fun(n1)
+
+
+#Cube Root
+def fun(n1):
+    cuberoot=1
+    for i in range(1,4):
+        cuberoot=cuberoot*n1
+    print(cuberoot)
+n1=int(input())
+fun(n1)
